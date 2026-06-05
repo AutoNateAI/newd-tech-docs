@@ -17,6 +17,14 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
+      label: 'AI-Native UI/UX',
+      items: [
+        'ai-native-ui-ux/thinking-in-sites',
+        'ai-native-ui-ux/prompt-to-interface',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Marketing Site',
       items: [
         'marketing-site/overview',
