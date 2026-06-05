@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Review and ship pipeline</title>
+  <desc id="desc">Pipeline from diff to deployed change.</desc>
+  <rect width="1120" height="520" rx="24" fill="#fff8ed"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">AI work still needs normal review</text>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <rect x="76" y="190" width="170" height="94" rx="12" fill="#521321"/><text x="161" y="244" fill="#fff8ed">Diff</text>
+    <rect x="286" y="190" width="170" height="94" rx="12" fill="#7a2633"/><text x="371" y="244" fill="#fff8ed">Checks</text>
+    <rect x="496" y="190" width="170" height="94" rx="12" fill="#d6a84f"/><text x="581" y="244" fill="#2a2023">Human Review</text>
+    <rect x="706" y="190" width="170" height="94" rx="12" fill="#f0e1bf"/><text x="791" y="244" fill="#521321">Deploy</text>
+    <rect x="916" y="190" width="128" height="94" rx="12" fill="#521321"/><text x="980" y="244" fill="#fff8ed">Docs</text>
+  </g>
+  <g stroke="#d6a84f" stroke-width="5" stroke-linecap="round" fill="none"><path d="M248 237h34"/><path d="M458 237h34"/><path d="M668 237h34"/><path d="M878 237h34"/></g>
+  <text x="560" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#5d4d50">No one ships a mystery diff. Understand it, check it, then publish it.</text>
+</svg>

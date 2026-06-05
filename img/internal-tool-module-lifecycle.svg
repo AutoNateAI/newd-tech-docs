@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img" aria-labelledby="title desc">
+  <title id="title">Internal tool module lifecycle</title>
+  <desc id="desc">Lifecycle for documenting an internal tool.</desc>
+  <rect width="1120" height="540" rx="24" fill="#fffaf2"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">Every tool needs an operating module</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="88" y="170" width="170" height="170" rx="85" fill="#521321"/><text x="173" y="246" font-size="22" font-weight="700" fill="#fff8ed">Purpose</text><text x="173" y="276" font-size="15" fill="#fff2db">why it exists</text>
+    <rect x="298" y="170" width="170" height="170" rx="85" fill="#7a2633"/><text x="383" y="246" font-size="22" font-weight="700" fill="#fff8ed">Access</text><text x="383" y="276" font-size="15" fill="#fff2db">who can use it</text>
+    <rect x="508" y="170" width="170" height="170" rx="85" fill="#d6a84f"/><text x="593" y="246" font-size="22" font-weight="700" fill="#2a2023">Tasks</text><text x="593" y="276" font-size="15" fill="#3d3033">how to work</text>
+    <rect x="718" y="170" width="170" height="170" rx="85" fill="#f0e1bf"/><text x="803" y="246" font-size="22" font-weight="700" fill="#521321">Support</text><text x="803" y="276" font-size="15" fill="#5d4d50">where to go</text>
+    <rect x="928" y="170" width="130" height="170" rx="65" fill="#521321"/><text x="993" y="246" font-size="22" font-weight="700" fill="#fff8ed">Log</text><text x="993" y="276" font-size="15" fill="#fff2db">changes</text>
+  </g>
+  <text x="560" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#5d4d50">If staff cannot operate it from the module, the tool is not finished.</text>
+</svg>

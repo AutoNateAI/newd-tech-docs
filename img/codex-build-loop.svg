@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Codex build loop</title>
+  <desc id="desc">Loop for building with Codex.</desc>
+  <rect width="1120" height="560" rx="24" fill="#161316"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#fff8ed">Codex build loop</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="230" cy="280" r="76" fill="#7a2633"/><text x="230" y="272" font-size="22" font-weight="700" fill="#fff8ed">Need</text><text x="230" y="302" font-size="15" fill="#fff2db">user outcome</text>
+    <circle cx="420" cy="280" r="76" fill="#d6a84f"/><text x="420" y="272" font-size="22" font-weight="700" fill="#2a2023">Inspect</text><text x="420" y="302" font-size="15" fill="#3d3033">repo patterns</text>
+    <circle cx="610" cy="280" r="76" fill="#fff8ed"/><text x="610" y="272" font-size="22" font-weight="700" fill="#521321">Build</text><text x="610" y="302" font-size="15" fill="#5d4d50">small change</text>
+    <circle cx="800" cy="280" r="76" fill="#f0e1bf"/><text x="800" y="272" font-size="22" font-weight="700" fill="#521321">Check</text><text x="800" y="302" font-size="15" fill="#5d4d50">tests/build</text>
+  </g>
+  <path d="M882 282c40 98-70 162-272 162-230 0-430-48-380-164" fill="none" stroke="#f0d8a5" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#f0d8a5" stroke-width="5" stroke-linecap="round"><path d="M308 280h34"/><path d="M498 280h34"/><path d="M688 280h34"/></g>
+  <text x="560" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#f0d8a5">Review the real workflow, then iterate from what staff actually experience.</text>
+</svg>

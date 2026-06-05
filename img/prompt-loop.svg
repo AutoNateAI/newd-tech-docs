@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Reusable prompt loop</title>
+  <desc id="desc">A loop for ask, inspect, implement, verify, summarize, and document.</desc>
+  <rect width="1120" height="520" rx="24" fill="#fff8ed"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">Reusable prompt loop</text>
+  <g font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+    <rect x="86" y="202" width="140" height="76" rx="12" fill="#521321"/><text x="156" y="248" fill="#fff8ed">Ask</text>
+    <rect x="270" y="202" width="140" height="76" rx="12" fill="#7a2633"/><text x="340" y="248" fill="#fff8ed">Inspect</text>
+    <rect x="454" y="202" width="140" height="76" rx="12" fill="#d6a84f"/><text x="524" y="248" fill="#2a2023">Implement</text>
+    <rect x="638" y="202" width="140" height="76" rx="12" fill="#f0e1bf"/><text x="708" y="248" fill="#521321">Verify</text>
+    <rect x="822" y="202" width="140" height="76" rx="12" fill="#7a2633"/><text x="892" y="248" fill="#fff8ed">Summarize</text>
+    <rect x="454" y="344" width="212" height="76" rx="12" fill="#521321"/><text x="560" y="390" fill="#fff8ed">Document</text>
+  </g>
+  <g fill="none" stroke="#d6a84f" stroke-width="5" stroke-linecap="round">
+    <path d="M228 240h38"/><path d="M412 240h38"/><path d="M596 240h38"/><path d="M780 240h38"/>
+    <path d="M892 282c-40 98-274 132-332 68"/>
+    <path d="M454 382c-202-14-314-48-298-100"/>
+  </g>
+  <g fill="#d6a84f">
+    <path d="M264 228l24 12-24 12z"/><path d="M448 228l24 12-24 12z"/><path d="M632 228l24 12-24 12z"/><path d="M816 228l24 12-24 12z"/>
+  </g>
+</svg>
