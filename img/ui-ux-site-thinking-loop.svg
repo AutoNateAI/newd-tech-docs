@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">AI-native site thinking loop</title>
+  <desc id="desc">A loop from audience to job to screen to review to iterate.</desc>
+  <rect width="1120" height="520" rx="24" fill="#fff8ed"/>
+  <rect x="36" y="36" width="1048" height="448" rx="20" fill="#ffffff" stroke="#ead8b4" stroke-width="2"/>
+  <text x="72" y="92" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#521321">Think in the person, not just the page</text>
+  <text x="72" y="130" font-family="Arial, sans-serif" font-size="18" fill="#5d4d50">Every AI-native site workflow moves through the same review loop.</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="188" cy="286" r="78" fill="#7a2633"/>
+    <text x="188" y="276" font-size="24" font-weight="700" fill="#fff8ed">Audience</text>
+    <text x="188" y="306" font-size="16" fill="#fff2db">Who is here?</text>
+    <circle cx="374" cy="286" r="78" fill="#d6a84f"/>
+    <text x="374" y="276" font-size="24" font-weight="700" fill="#2a2023">Job</text>
+    <text x="374" y="306" font-size="16" fill="#3d3033">What do they need?</text>
+    <circle cx="560" cy="286" r="78" fill="#521321"/>
+    <text x="560" y="276" font-size="24" font-weight="700" fill="#fff8ed">Screen</text>
+    <text x="560" y="306" font-size="16" fill="#fff2db">What helps them act?</text>
+    <circle cx="746" cy="286" r="78" fill="#f0e1bf" stroke="#d6a84f" stroke-width="3"/>
+    <text x="746" y="276" font-size="24" font-weight="700" fill="#521321">Review</text>
+    <text x="746" y="306" font-size="16" fill="#5d4d50">Does it work?</text>
+    <circle cx="932" cy="286" r="78" fill="#7a2633"/>
+    <text x="932" y="276" font-size="24" font-weight="700" fill="#fff8ed">Iterate</text>
+    <text x="932" y="306" font-size="16" fill="#fff2db">Make it clearer</text>
+  </g>
+  <g fill="none" stroke="#7a2633" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M268 286h26"/>
+    <path d="M454 286h26"/>
+    <path d="M640 286h26"/>
+    <path d="M826 286h26"/>
+  </g>
+  <g fill="#7a2633">
+    <path d="M294 274l24 12-24 12z"/>
+    <path d="M480 274l24 12-24 12z"/>
+    <path d="M666 274l24 12-24 12z"/>
+    <path d="M852 274l24 12-24 12z"/>
+  </g>
+  <path d="M932 380c-110 76-634 76-744 0" fill="none" stroke="#d6a84f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M188 380l-8 28 30-6z" fill="#d6a84f"/>
+</svg>
