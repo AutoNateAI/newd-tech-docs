@@ -1,0 +1,45 @@
+---
+sidebar_position: 1
+slug: /intro
+title: Start Here
+---
+
+# New Deliverance Tech Docs
+
+This site trains New Deliverance staff on the technology setup that supports the ministry:
+
+- the public New Deliverance marketing site
+- Codex-assisted development workflows
+- internal tools running on the compute environment and private network
+
+The goal is practical operating knowledge. Each page should answer:
+
+- what this system does
+- who owns the work
+- how staff use it
+- how changes are requested, reviewed, and shipped
+- what should never be pasted into public docs or chats
+
+## Local repositories
+
+The current working checkouts are:
+
+```bash
+~/code/new-deliverance
+~/code/newd-tech-docs
+```
+
+`new-deliverance` is the public Astro marketing site. `newd-tech-docs` is this Docusaurus training site.
+
+## Documentation rules
+
+Keep these docs operational but safe:
+
+- Do document workflows, repo paths, commands, owner roles, and support contacts.
+- Do use placeholders for hostnames, keys, tokens, service account names, and private IPs.
+- Do not publish credentials, Tailscale auth keys, API keys, private URLs, donor information, member information, or staff personal data.
+- Do not document a workaround unless it has been tested or clearly marked as temporary.
+
+## Adding a new module
+
+Use the internal tool module template when a new tool is created. Every module should include the tool purpose, intended users, login/access expectations, common tasks, support workflow, and a change log.

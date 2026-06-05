@@ -1,0 +1,96 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 5rem 0 4rem;
+  background: linear-gradient(135deg, #521321 0%, #7a2633 46%, #d6a84f 100%);
+  color: #fff8ed;
+  position: relative;
+  overflow: hidden;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: #ffe2a6;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  max-width: 820px;
+  margin: 0;
+  font-size: clamp(2.4rem, 7vw, 4.8rem);
+  line-height: 1;
+}
+
+.heroSubtitle {
+  max-width: 760px;
+  margin: 1.25rem 0 0;
+  color: #fff2db;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3.5rem 0 3rem;
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.trackSection {
+  padding: 3rem 0;
+  background: #fffaf2;
+}
+
+[data-theme='dark'] .trackSection {
+  background: #161316;
+}
+
+.trackGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.trackCard {
+  min-height: 220px;
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  background: var(--ifm-card-background-color);
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+}
+
+.trackCard:hover {
+  color: var(--ifm-font-color-base);
+  text-decoration: none;
+  border-color: var(--ifm-color-primary);
+}
+
+.trackCard h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.35rem;
+}
+
+.trackCard p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 996px) {
+  .trackGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,45 @@
+---
+sidebar_position: 2
+title: Review and Ship
+---
+
+# Review and Ship
+
+AI-generated changes still need normal engineering review. The standard is simple: understand the diff, run the checks, and confirm the user workflow works.
+
+## Before committing
+
+Run the checks that fit the repo:
+
+```bash
+npm run build
+npm run typecheck
+npm test
+```
+
+Not every repo has every command. If a command is missing, note that in the change summary.
+
+## Review checklist
+
+- Does the change solve the original request?
+- Did it touch only the files it needed to touch?
+- Are secrets and private network details excluded?
+- Are errors handled clearly?
+- Does the UI work on mobile if the change is user-facing?
+- Are docs updated when staff behavior changes?
+
+## Commit messages
+
+Use short, direct commit messages:
+
+```text
+Scaffold New Deliverance tech docs
+Document marketing site structure
+Add livestream link configuration
+```
+
+## Pushing changes
+
+For this docs site, pushes to `main` build the static site and publish it to `gh-pages`.
+
+For internal tools, follow the module-specific deployment instructions. If a tool has no deployment instructions yet, create them before handing the tool to staff.

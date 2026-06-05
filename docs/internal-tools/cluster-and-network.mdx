@@ -1,0 +1,41 @@
+---
+sidebar_position: 2
+title: Cluster and Private Network
+---
+
+# Cluster and Private Network
+
+New Deliverance internal tools can run on a compute cluster and be reached through a private network. This page is intentionally high level so the docs remain safe to publish.
+
+## What staff need to know
+
+- Some tools are not public websites.
+- Access may require being approved for the private network.
+- Tool links, access rules, and troubleshooting steps should be documented in each tool module.
+- Credentials should be stored in the approved secret manager or deployment environment, never in docs.
+
+## Access request flow
+
+1. Staff member requests access from the tool owner.
+2. Owner confirms the staff member needs the tool.
+3. Technical owner grants the required network or app access.
+4. Staff member tests login with a non-sensitive workflow.
+5. Tool owner records the access in the approved internal tracker.
+
+## Troubleshooting flow
+
+1. Confirm whether the staff member is on the required network.
+2. Confirm the tool is expected to be running.
+3. Check whether the issue affects one user or everyone.
+4. Escalate to the technical owner with the tool name, timestamp, error message, and user impact.
+
+## Documentation standard
+
+Each private tool module should explain how to use the tool without exposing:
+
+- private hostnames
+- private IP addresses
+- auth keys
+- service tokens
+- database credentials
+- member or donor records
