@@ -71,7 +71,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/AutoNateAI/new-deliverance',
+          href: 'https://nd.autonateai.com/',
           label: 'New Deliverance Site',
           position: 'right',
         },
