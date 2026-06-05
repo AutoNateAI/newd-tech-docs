@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt engineering stack</title>
+  <desc id="desc">A layered stack for a useful prompt.</desc>
+  <rect width="1120" height="560" rx="24" fill="#fff8ed"/>
+  <text x="64" y="80" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">A useful prompt is a stack</text>
+  <text x="64" y="120" font-family="Arial, sans-serif" font-size="18" fill="#5d4d50">Each layer removes guessing and makes the output easier to review.</text>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="220" y="400" width="680" height="56" rx="10" fill="#521321"/><text x="560" y="436" text-anchor="middle" fill="#fff8ed">Verification</text>
+    <rect x="250" y="336" width="620" height="56" rx="10" fill="#7a2633"/><text x="560" y="372" text-anchor="middle" fill="#fff8ed">Output Format</text>
+    <rect x="280" y="272" width="560" height="56" rx="10" fill="#d6a84f"/><text x="560" y="308" text-anchor="middle" fill="#2a2023">Constraints</text>
+    <rect x="310" y="208" width="500" height="56" rx="10" fill="#f0e1bf"/><text x="560" y="244" text-anchor="middle" fill="#521321">Context</text>
+    <rect x="340" y="144" width="440" height="56" rx="10" fill="#ffffff" stroke="#ead8b4" stroke-width="2"/><text x="560" y="180" text-anchor="middle" fill="#521321">Goal</text>
+    <rect x="370" y="80" width="380" height="56" rx="10" fill="#ffffff" stroke="#ead8b4" stroke-width="2"/><text x="560" y="116" text-anchor="middle" fill="#521321">Role</text>
+  </g>
+  <text x="560" y="504" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5d4d50">Role + Goal + Context + Constraints + Output + Verification</text>
+</svg>

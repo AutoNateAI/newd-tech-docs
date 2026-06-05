@@ -25,6 +25,15 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Prompt Engineering',
+      items: [
+        'prompt-engineering/prompt-fundamentals',
+        'prompt-engineering/context-engineering',
+        'prompt-engineering/reusable-patterns',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Marketing Site',
       items: [
         'marketing-site/overview',

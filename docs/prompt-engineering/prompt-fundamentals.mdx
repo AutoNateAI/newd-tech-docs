@@ -1,0 +1,56 @@
+---
+sidebar_position: 1
+title: Prompt Fundamentals
+---
+
+# Prompt Fundamentals
+
+Prompt engineering is the practice of giving AI enough direction to produce useful work on the first or second pass. For New Deliverance staff, the goal is not fancy prompting. The goal is clear delegation.
+
+<img src="/img/prompt-engineering-stack.svg" alt="Diagram showing a useful prompt stack: role, goal, context, constraints, output, and verification." />
+
+## The prompt stack
+
+A strong prompt usually includes:
+
+- **Role:** who the AI should act as
+- **Goal:** what outcome you need
+- **Context:** what the AI must know before acting
+- **Constraints:** what must be protected, avoided, or matched
+- **Output:** what format you want back
+- **Verification:** how the work should be checked
+
+Example:
+
+```text
+Act as a senior product-minded web developer. In ~/code/new-deliverance, update the Watch page so staff can add a livestream link from site.ts. Keep the current visual style, avoid private infrastructure details, run the build, and summarize changed files.
+```
+
+## Weak prompt vs strong prompt
+
+Weak:
+
+```text
+Make the site better.
+```
+
+Strong:
+
+```text
+Review the New Deliverance homepage for a first-time visitor arriving from Facebook. Identify three unclear parts of the page, then implement the smallest content and layout changes that make service time, location, and watch/give actions easier to find. Run the build before summarizing.
+```
+
+## The practical rule
+
+If a staff member would need to ask five follow-up questions before doing the task, Codex probably needs the same answers before it can do good work.
+
+## Prompt review checklist
+
+Before sending a prompt, check:
+
+- Did I name the repo or tool?
+- Did I describe the audience?
+- Did I explain the job to be done?
+- Did I include safety boundaries?
+- Did I ask for verification?
+- Did I avoid pasting secrets or private member data?

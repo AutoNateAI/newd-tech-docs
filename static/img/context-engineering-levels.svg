@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Context engineering levels</title>
+  <desc id="desc">Context levels from request down to snippets.</desc>
+  <rect width="1120" height="520" rx="24" fill="#fffaf2"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">Use the smallest useful context</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="560" cy="278" r="190" fill="#fff8ed" stroke="#ead8b4" stroke-width="2"/>
+    <circle cx="560" cy="278" r="150" fill="#f0e1bf"/>
+    <circle cx="560" cy="278" r="110" fill="#d6a84f"/>
+    <circle cx="560" cy="278" r="72" fill="#7a2633"/>
+    <circle cx="560" cy="278" r="36" fill="#521321"/>
+    <text x="560" y="110" font-size="18" font-weight="700" fill="#521321">Request</text>
+    <text x="560" y="150" font-size="18" font-weight="700" fill="#521321">Workflow</text>
+    <text x="560" y="198" font-size="18" font-weight="700" fill="#2a2023">Repo</text>
+    <text x="560" y="252" font-size="18" font-weight="700" fill="#fff8ed">File</text>
+    <text x="560" y="284" font-size="14" font-weight="700" fill="#fff8ed">Snippet</text>
+  </g>
+  <text x="560" y="486" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5d4d50">Do not dump everything. Provide what the task actually needs.</text>
+</svg>

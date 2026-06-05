@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img" aria-labelledby="title desc">
+  <title id="title">Marketing site map</title>
+  <desc id="desc">New Deliverance marketing site structure.</desc>
+  <rect width="1120" height="560" rx="24" fill="#fff8ed"/>
+  <text x="64" y="82" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#521321">Marketing site structure</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="82" y="194" width="220" height="90" rx="12" fill="#521321"/><text x="192" y="232" font-size="22" font-weight="700" fill="#fff8ed">src/data/site.ts</text><text x="192" y="260" font-size="15" fill="#fff2db">shared content</text>
+    <rect x="450" y="118" width="220" height="90" rx="12" fill="#d6a84f"/><text x="560" y="156" font-size="22" font-weight="700" fill="#2a2023">src/pages</text><text x="560" y="184" font-size="15" fill="#3d3033">public routes</text>
+    <rect x="450" y="260" width="220" height="90" rx="12" fill="#f0e1bf"/><text x="560" y="298" font-size="22" font-weight="700" fill="#521321">components</text><text x="560" y="326" font-size="15" fill="#5d4d50">header, footer, UI</text>
+    <rect x="450" y="402" width="220" height="90" rx="12" fill="#ffffff" stroke="#ead8b4" stroke-width="2"/><text x="560" y="440" font-size="22" font-weight="700" fill="#521321">BaseLayout</text><text x="560" y="468" font-size="15" fill="#5d4d50">SEO and shell</text>
+    <rect x="818" y="194" width="220" height="90" rx="12" fill="#7a2633"/><text x="928" y="232" font-size="22" font-weight="700" fill="#fff8ed">GitHub Pages</text><text x="928" y="260" font-size="15" fill="#fff2db">published site</text>
+  </g>
+  <g stroke="#d6a84f" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M304 239h138"/><path d="M670 163c70 0 100 30 140 70"/><path d="M670 305c70 0 100-30 140-62"/><path d="M670 447c90-40 120-110 144-176"/>
+  </g>
+</svg>

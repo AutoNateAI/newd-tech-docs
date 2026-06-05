@@ -1,0 +1,59 @@
+---
+sidebar_position: 3
+title: Reusable Patterns
+---
+
+# Reusable Patterns
+
+Use these prompt patterns when working with Codex. They keep requests clear and reduce rework.
+
+<img src="/img/prompt-loop.svg" alt="Diagram showing a reusable prompt loop: ask, inspect, implement, verify, summarize, document." />
+
+## Inspect first
+
+Use this when you are not sure how the repo is structured:
+
+```text
+Inspect this repo first. Tell me the files and patterns that matter for [task]. Then implement the smallest safe change and run the relevant checks.
+```
+
+## Compare options
+
+Use this when the design or workflow is not obvious:
+
+```text
+Give me two practical implementation options for [goal]. Compare user impact, complexity, and risk. Recommend one, then implement it unless there is a blocker.
+```
+
+## Improve a page
+
+Use this for public site work:
+
+```text
+Review [page] for [audience]. Improve clarity, page flow, and the primary action while keeping the current brand style. Do not add private details. Run the build.
+```
+
+## Create a staff module
+
+Use this for internal tool training:
+
+```text
+Create a new internal tool module for [tool name]. The audience is [staff role]. Include purpose, access, common tasks, support, and change log. Keep private URLs and credentials out of the docs.
+```
+
+## Debug a problem
+
+Use this when something is broken:
+
+```text
+Reproduce the issue if possible, inspect the relevant code, identify the root cause, implement a focused fix, and run the checks that prove the fix works.
+```
+
+## Final answer standard
+
+Ask Codex to end with:
+
+- what changed
+- what files changed
+- what checks ran
+- what still needs human confirmation
